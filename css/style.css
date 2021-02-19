@@ -71,14 +71,15 @@ a{
 td{
   border-top: 2px solid black;
   padding: 10px;
+  text-align:center;
 }
 
 /*Req 6b*/
 .colhead{
   color: #FFFFFF;
-  text-align: center;
+  margin: auto;
   text-transform: uppercase;
-  column-width: 125px;
+  min-width: 125px;
   padding: 10px;
   background-color: #7e0820;
 }
@@ -139,5 +140,6 @@ footer{
   min-height: 75px;
   position: fixed;
   bottom: 0;
+  left: 0;
 }
 
